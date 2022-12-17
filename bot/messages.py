@@ -1,7 +1,8 @@
-def start() -> str:
-    pass
+from enum import Enum
 
-def help() -> str:
-    pass
+class Start(Enum):
+    text: str = "Привет {user_name}"
 
+class Help(Enum):
+    text: str = "Привет"
 
