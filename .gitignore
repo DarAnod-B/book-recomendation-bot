@@ -2,3 +2,4 @@
 *.pyc
 *.csv
 python-telegram-bot/
+bot/test_bot.py
